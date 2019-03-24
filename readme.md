@@ -18,8 +18,8 @@ To add a computer, go to http://localhost/new and a page will show up to add a n
 
 If you want your computers to persistent across any updates, please backup the following locations using the ```-v``` docker argument:
 ```
-/var/www/html/django-wol/db.sqlite3
-/var/www/html/django-wol/wol/migrations
+/var/www/html/django-wol/db.sqlite3 file 666
+/var/www/html/django-wol/wol/migrations (folder)
 ```
 
 ## Building and Testing
